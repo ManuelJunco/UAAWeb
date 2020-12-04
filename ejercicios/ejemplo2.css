@@ -1,0 +1,34 @@
+/* color inverso */
+header{
+	color: white;
+	background-color: black;
+	padding: 0% 2% 1%; /*Regla del Reloj */
+    margin: 2% 1%;
+    display: flex;
+}
+
+
+article header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 44%;
+}
+
+article header ul li {
+    float: right;
+}
+
+article header ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+article header ul li a:hover {
+    background-color: whitesmoke;
+}

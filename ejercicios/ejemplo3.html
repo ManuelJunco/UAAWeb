@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+	<meta name="author" content="Manuel Junco"/>
+    <title>MIW. Ejemplo 3</title>
+    <link rel="stylesheet" type="text/css" href="../estilo.css"/>
+</head>
+<body>
+    <h1>Ejemplo 3</h1> 
+      <!-- Barra de navegación -->
+      <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../personal/aficiones.html">Aficiones</a></li>
+            <li><a href="../personal/musica.html">Música</a></li>
+            <li><a href="../personal/deporte.html">Deporte</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Ejercicios</a>
+                <div class="dropdown-content">
+                    <a href="../ejercicios/contraejemplos.html">Contraejemplos</a>
+                </div>
+              </li>
+        </ul>
+    </nav>
+	<article>
+        <h2>La Casa de El</h2>
+        <h3>Problema detectado</h3>
+        <!-- <img src="ejemplo2.PNG" width=90% alt="Imagen Ejercicio 2 en el navegador"/> -->
+        <img src="ejemplo3html.PNG" width="70%" alt="Imagen código Ejercicio 3"/>
+        <h3>Información del problema</h3>
+        <p>Mal uso de atributo alt en la imagen. Alt debe usarse como texto alternativo a la imagen. Las razones varían desde que el navegador no pueda cargar la imagen
+            hasta que el usuario no pueda ver la imagen por causas como ceguera total o ceguera de colores.
+        </p>
+        <p>En este caso, se utiliza como atributo alt el nombre que se le ha dado a la propia imagen: una serie de caracteres sin significado alguno</p>
+        <h3>Solución propuesta</h3>
+        <p>Incluir un atributo alt coherente, como se tiene para el atributo title.</p>
+        <p><a href="solucionEjemplo3.html">solución propuesta</a></p>
+        
+	</article>
+	
+
+</body></html>
